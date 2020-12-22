@@ -82,7 +82,7 @@ for i in loans:
 print("\nInexpensive Loans:")
 for i in inexpensive_loans:
     print(i)
-print("")
+
 header = ["loan_price", "remaining_months",
           "repayment_interval", "future_value"]
 output_path = Path("inexpensive_loans.csv")
